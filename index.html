@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DARKtask</title>
+  <link rel="stylesheet" href="/darcktask/style.css">
+</head>
+
+<body>
+  <header class="mainnagation">
+    <nav>
+      <h1>DARKtask</h1>
+    </nav>
+    <nav class="secandnaveg">
+      <button id="secandnaveg">
+        <div class="humb"></div>
+        <div class="humb"></div>
+        <div class="humb"></div>
+      </button>
+    </nav>
+  </header>
+  
+  <main id="main">
+    <div class="manun">
+      <ul>
+        <li><button id="mudartema">tema</button></li>
+        <li><button>sobre me</button></li>
+        <li><button>pluliticas de privacidade</button></li>
+        <li><button id="sair">❎</button></li>
+        
+      </ul>
+    </div>
+    <div class="pop">
+      <section class="form">
+        <input type="text" id="texto" class="texto" placeholder="nome da tarefa">
+        <input type="date" id="data" class="data" />
+        <input type="color" id="color" class="color">
+        <button id="enviar">enviar</button>
+      </section>
+    </div>
+    <div class="eventos">
+      <button id="limpar">limpar tarefas🗑️</button>
+      <button id="adicionar">adicionar tarefas➕</button>
+      <p class="p1">adicionados✔️:<span id="add"></span></p>
+      <p class="p1">eliminados❎:<span id="removidos"></span></p>
+      
+    </div>
+    <div class="resultado">
+    </div>
+    
+  </main>
+  
+</body>
+<script src="/darcktask/script.js">
+</script>
+
+</html>
